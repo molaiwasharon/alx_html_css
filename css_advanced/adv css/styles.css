@@ -161,11 +161,6 @@ h2 span {
 
 h1 span {
   color: #c271ff;
-  font-family: Source Sans Pro;
-  font-size: 32px;
-  font-weight: 700;
-  line-height: 40.22px;
-  text-align: center;
 }
 
 .quote-section {
@@ -319,6 +314,12 @@ blockquote {
   font-size: 14px;
   color: rgba(7, 22, 41, 0.5);
   line-height: 24px;
+  width: 257px;
+  height: 153px;
+  top: 168px;
+  left: 164px;
+  gap: 0px;
+  opacity: 0px;
 }
 
 .items-section {
@@ -327,7 +328,6 @@ blockquote {
   width: 1440px;
   height: 502px;
   top: 2109px;
-  color: white;
 }
 
 footer {
