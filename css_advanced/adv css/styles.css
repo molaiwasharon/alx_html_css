@@ -16,6 +16,8 @@ body {
   background-position: center center;
   width: 1140px;
   height: 1093px;
+  gap: 0px;
+  opacity: 0px;
 }
 
 header {
@@ -45,6 +47,12 @@ nav ul li a {
   text-decoration: none;
   color: white;
   font-weight: bold;
+  width: 234px;
+  height: 15px;
+  top: 37px;
+  left: 1041px;
+  gap: 0px;
+  opacity: 0px;
 }
 
 main {
@@ -64,14 +72,35 @@ main {
 
 .content h1 {
   color: white;
-  font-size: 80px;
+  width: 684px;
+  height: 151px;
+  top: 220px;
+  left: 377px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Source Sans Pro;
+  font-size: 120px;
+  font-weight: 700;
+  line-height: 150.84px;
+  text-align: center;
 }
 
 .content h2 {
   display: inline-block;
-  margin-right: 10px;
-  text-align: center;
+
   color: white;
+
+  width: 52px;
+  height: 20px;
+  top: 361px;
+  left: 593px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Source Sans Pro;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20.11px;
+  text-align: center;
 }
 
 h2 span {
@@ -94,6 +123,12 @@ h2 span {
 .pros-section {
   text-align: center;
   margin-top: 40px;
+  width: 1009px;
+  height: 237px;
+  top: 758px;
+  left: 217px;
+  gap: 0px;
+  opacity: 0px;
 }
 
 .pros {
@@ -109,14 +144,16 @@ h2 span {
 }
 
 .pro img {
-  width: 150px;
-  height: auto;
   border-radius: 10px;
   margin-bottom: 10px;
+  width: 150px;
+  height: 150px;
+  gap: 0px;
+  opacity: 0px;
 }
 
 .round-image {
-  width: 200px;
+  width: 150px;
   height: auto;
   border-radius: 70%;
   object-fit: cover;
@@ -124,6 +161,11 @@ h2 span {
 
 h1 span {
   color: #c271ff;
+  font-family: Source Sans Pro;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40.22px;
+  text-align: center;
 }
 
 .quote-section {
@@ -137,11 +179,14 @@ h1 span {
 .quote-block {
   display: flex;
   align-items: center;
-  padding: 10px;
-  width: 1440px;
-  height: 392px;
   background-color: #c271ff;
   background-clip: padding-box;
+  width: 1440px;
+  height: 392px;
+  top: 1093px;
+  left: -1px;
+  gap: 0px;
+  opacity: 0px;
 }
 
 .quote-block img {
