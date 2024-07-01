@@ -87,9 +87,7 @@ main {
 
 .content h2 {
   display: inline-block;
-
   color: white;
-
   width: 52px;
   height: 20px;
   top: 361px;
@@ -141,6 +139,9 @@ h2 span {
 .pro {
   text-align: center;
   margin: 10px;
+}
+.pro p {
+  color: white;
 }
 
 .pro img {
