@@ -6,6 +6,7 @@ p,
 ul {
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
 body {
@@ -66,8 +67,10 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   text-align: center;
-  margin-top: 20px;
+  height: 100vh;
+  margin-top: 0;
 }
 
 .content h1 {
@@ -98,16 +101,13 @@ main {
   font-size: 16px;
   font-weight: 700;
   line-height: 20.11px;
-  text-align: center;
 }
 
 h2 span {
   padding-right: 15px;
-  text-align: center;
 }
 
 .register-button {
-  margin-top: 20px;
   padding: 10px 20px;
   background-color: #c271ff;
   text-align: center;
@@ -116,6 +116,13 @@ h2 span {
   border-radius: 20px;
   font-size: 16px;
   cursor: pointer;
+  margin-left: 80px;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
 }
 
 .pros-section {
@@ -127,6 +134,7 @@ h2 span {
   left: 217px;
   gap: 0px;
   opacity: 0px;
+  color: white;
 }
 
 .pros {
@@ -162,75 +170,98 @@ h1 span {
 }
 
 .quote-section {
-  text-align: center;
-  margin-top: 40px;
-  width: 100%;
+  background-color: #c271ff;
+  width: 1440px;
+  height: 392px;
+  margin: 0 auto;
   display: flex;
+  align-items: center;
   justify-content: center;
 }
 
 .quote-block {
   display: flex;
   align-items: center;
-  background-color: #c271ff;
-  background-clip: padding-box;
-  width: 1440px;
-  height: 392px;
-  top: 1093px;
-  left: -1px;
-  gap: 0px;
-  opacity: 0px;
+  gap: 20px;
 }
 
-.quote-block img {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  margin-right: 20px;
+section {
+  margin-bottom: 40px;
+}
+
+.pros-section,
+.content,
+.quote-section,
+.video-list-section,
+.items-section {
+  padding: 23px;
 }
 
 .quote-content {
+  width: 830px;
+  color: white;
+}
+
+.quote-content p {
+  text-align: left;
+}
+
+blockquote {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33.6px;
+  text-align: left;
+  margin: 0;
+}
+
+.quote-author {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33.6px;
   text-align: left;
   color: white;
 }
 
-blockquote {
-  font-size: 18px;
-  margin: 0;
-  color: white;
-}
-
-.quote-author {
-  margin-top: 10px;
-  font-weight: bold;
-}
-
-.quote-text {
-  margin-top: 5px;
-  color: white;
-}
-
-.video-list-section,
-.items-section {
+.video-list-section {
   text-align: center;
   margin-top: 40px;
+  padding: 20px 0;
 }
 
 .videos,
 .items {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  gap: 20px;
   flex-wrap: nowrap;
 }
 
-.video-block,
-.item-block {
+.item-block1 {
   text-align: center;
   margin: 10px;
   padding: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   max-width: 255px;
+}
+
+.item-block1 img {
+  width: 20%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.item-block1 h3 {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.item-block1 p {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 1.6;
 }
 
 .video-block .background-image {
@@ -259,6 +290,7 @@ blockquote {
 .author-block {
   display: flex;
   align-items: center;
+  justify-content: center;
   margin-top: 10px;
 }
 
@@ -272,6 +304,7 @@ blockquote {
 .rating-block {
   display: flex;
   align-items: center;
+  justify-content: center;
   margin-top: 10px;
 }
 
@@ -319,7 +352,8 @@ blockquote {
   background-color: #071629;
   width: 1440px;
   height: 502px;
-  top: 2109px;
+  margin: 0 auto;
+  padding: 40px 0;
 }
 
 footer {
@@ -329,35 +363,48 @@ footer {
   border-top: 1px solid #e9ecef;
 }
 
-footer .global-block {
+.footer {
+  width: 1440px;
+  height: 249px;
+  background-color: #071629;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: white;
+  margin: 0 auto;
 }
 
-footer .row-block {
+.footer-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  max-width: 1200px;
+  padding: 0 40px;
 }
 
-footer .row-block img {
-  width: 60px;
+.footer-left {
+  display: flex;
+  align-items: center;
+}
+
+.footer-logo {
+  max-width: 200px;
   height: auto;
 }
 
-footer .block-inside {
-  text-align: left;
-  margin-left: 20px;
+.footer-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
-footer .block-inside h2 {
-  margin: 0;
-  font-size: 18px;
+.footer-icon {
+  width: 30px;
+  height: 30px;
 }
 
-footer .block-inside p {
-  margin: 5px 0 0;
+.footer-copyright {
+  margin-top: 20px;
+  text-align: center;
 }
