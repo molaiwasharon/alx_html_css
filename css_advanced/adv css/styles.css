@@ -53,6 +53,7 @@ main {
   flex-direction: column;
   align-items: center;
 }
+
 .content {
   display: flex;
   flex-direction: column;
@@ -60,16 +61,19 @@ main {
   text-align: center;
   margin-top: 20px;
 }
+
 .content h1 {
   color: white;
   font-size: 80px;
 }
+
 .content h2 {
   display: inline-block;
   margin-right: 10px;
   text-align: center;
   color: white;
 }
+
 h2 span {
   padding-right: 15px;
   text-align: center;
@@ -110,15 +114,18 @@ h2 span {
   border-radius: 10px;
   margin-bottom: 10px;
 }
+
 .round-image {
   width: 200px;
   height: auto;
   border-radius: 70%;
   object-fit: cover;
 }
+
 h1 span {
   color: #c271ff;
 }
+
 .quote-section {
   text-align: center;
   margin-top: 40px;
@@ -188,37 +195,27 @@ blockquote {
   max-width: 255px;
 }
 
-.video-block img {
+.video-block .background-image {
+  position: relative;
+}
+
+.video-block .background-image img {
   width: 100%;
   height: auto;
   border-radius: 10px;
   margin-bottom: 10px;
 }
-.item-block img {
-  width: 43px;
-  height: 35.35px;
-  position: relative;
-  top: 0.03px;
-  left: 106.71px;
-}
 
-.video-block .play-button {
-  position: relative;
+.video-block .background-image::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   width: 64px;
   height: 64px;
-}
-.background-image {
-  width: 100%;
-  height: 100%;
-  display: block;
-}
-
-.play-button {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 64px;
-  height: 64px; /* Adjust to your desired height */
+  background: url("C:/alx_html_css/css_advanced/adv css/CSS Advanced/play.png")
+    center center / contain no-repeat;
 }
 
 .author-block {
@@ -263,13 +260,16 @@ blockquote {
   max-width: 300px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 .item-block1 p {
   color: white;
 }
+
 .item-block h3 {
   margin-top: 0;
   font-size: 16px;
 }
+
 .item-block p {
   font-size: 14px;
   color: rgba(7, 22, 41, 0.5);
@@ -290,4 +290,37 @@ footer {
   padding: 10px;
   background-color: #f8f9fa;
   border-top: 1px solid #e9ecef;
+}
+
+footer .global-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .row-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+}
+
+footer .row-block img {
+  width: 60px;
+  height: auto;
+}
+
+footer .block-inside {
+  text-align: left;
+  margin-left: 20px;
+}
+
+footer .block-inside h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+footer .block-inside p {
+  margin: 5px 0 0;
 }
