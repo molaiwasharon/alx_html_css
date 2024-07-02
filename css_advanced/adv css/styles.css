@@ -15,11 +15,10 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  width: 1140px;
-  height: 1093px;
-  gap: 0px;
-  opacity: 0px;
+  width: 1440px; /* Adjusted to match container width */
+  margin: 0 auto; /* Center align */
   box-sizing: border-box;
+  height: 1092px;
 }
 
 header {
@@ -119,7 +118,6 @@ h2 span {
   cursor: pointer;
   margin-left: 80px;
 }
-
 .button-container {
   display: flex;
   justify-content: center;
@@ -163,7 +161,7 @@ h2 span {
 .round-image {
   width: 150px;
   height: auto;
-  border-radius: 70%;
+  border-radius: 100%;
   object-fit: cover;
 }
 
@@ -181,6 +179,7 @@ h1 span {
   display: flex;
   align-items: center;
   justify-content: center;
+
   box-sizing: border-box;
 }
 
@@ -233,7 +232,8 @@ blockquote {
   text-align: center;
   margin-top: 40px;
   padding: 20px 0;
-  align-items: center;
+
+  align-items: center; /* Center vertically */
 }
 
 .videos,
@@ -357,27 +357,13 @@ blockquote {
 }
 
 .items-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #071629;
-  width: 100%;
-  padding: 40px 20px;
-  box-sizing: border-box;
   text-align: center;
-}
-
-.items-section h1 {
-  margin-bottom: 20px;
-}
-
-.items {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  flex-wrap: wrap;
-  width: 100%;
-  max-width: 1200px;
+  background-color: #071629;
+  text-align: center;
+  background-color: #071629;
+  width: 100%; /* Full width of the viewport */
+  padding: 40px 0;
+  box-sizing: border-box;
 }
 
 footer {
@@ -413,4 +399,22 @@ footer {
 }
 
 .footer-logo {
-  max-width
+  max-width: 200px;
+  height: auto;
+}
+
+.footer-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.footer-copyright {
+  margin-top: 20px;
+  text-align: center;
+}
