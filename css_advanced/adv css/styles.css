@@ -357,6 +357,13 @@ blockquote {
   height: 502px;
   margin: 0 auto;
   padding: 40px 0;
+
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Full viewport height */
+  /* Optional padding */
+  box-sizing: border-box;
 }
 
 footer {
