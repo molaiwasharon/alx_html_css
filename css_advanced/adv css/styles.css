@@ -19,6 +19,7 @@ body {
   height: 1093px;
   gap: 0px;
   opacity: 0px;
+  box-sizing: border-box;
 }
 
 header {
@@ -118,6 +119,7 @@ h2 span {
   cursor: pointer;
   margin-left: 80px;
 }
+
 .button-container {
   display: flex;
   justify-content: center;
@@ -174,10 +176,12 @@ h1 span {
   width: 1440px;
   height: 392px;
   margin: 0 auto;
+  margin-right: 0;
   padding: 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
+  box-sizing: border-box;
 }
 
 .quote-block {
@@ -229,6 +233,7 @@ blockquote {
   text-align: center;
   margin-top: 40px;
   padding: 20px 0;
+  align-items: center;
 }
 
 .videos,
@@ -237,6 +242,7 @@ blockquote {
   justify-content: center;
   gap: 20px;
   flex-wrap: nowrap;
+  text-align: center;
 }
 
 .item-block1 {
@@ -351,19 +357,27 @@ blockquote {
 }
 
 .items-section {
-  text-align: center;
-  background-color: #071629;
-  width: 1440px;
-  height: 502px;
-  margin: 0 auto;
-  padding: 40px 0;
-
   display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
-  height: 100vh; /* Full viewport height */
-  /* Optional padding */
+  flex-direction: column;
+  align-items: center;
+  background-color: #071629;
+  width: 100%;
+  padding: 40px 20px;
   box-sizing: border-box;
+  text-align: center;
+}
+
+.items-section h1 {
+  margin-bottom: 20px;
+}
+
+.items {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1200px;
 }
 
 footer {
@@ -399,22 +413,4 @@ footer {
 }
 
 .footer-logo {
-  max-width: 200px;
-  height: auto;
-}
-
-.footer-right {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
-
-.footer-icon {
-  width: 30px;
-  height: 30px;
-}
-
-.footer-copyright {
-  margin-top: 20px;
-  text-align: center;
-}
+  max-width
