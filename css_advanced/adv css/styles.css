@@ -15,10 +15,10 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  width: 1440px; /* Adjusted to match container width */
-  margin: 0 auto; /* Center align */
-  box-sizing: border-box;
-  height: 1092px;
+  width: 1140px;
+  height: 1093px;
+  gap: 0px;
+  opacity: 0px;
 }
 
 header {
@@ -161,7 +161,7 @@ h2 span {
 .round-image {
   width: 150px;
   height: auto;
-  border-radius: 100%;
+  border-radius: 70%;
   object-fit: cover;
 }
 
@@ -174,13 +174,10 @@ h1 span {
   width: 1440px;
   height: 392px;
   margin: 0 auto;
-  margin-right: 0;
   padding: 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
-
-  box-sizing: border-box;
 }
 
 .quote-block {
@@ -232,8 +229,6 @@ blockquote {
   text-align: center;
   margin-top: 40px;
   padding: 20px 0;
-
-  align-items: center; /* Center vertically */
 }
 
 .videos,
@@ -242,7 +237,6 @@ blockquote {
   justify-content: center;
   gap: 20px;
   flex-wrap: nowrap;
-  text-align: center;
 }
 
 .item-block1 {
@@ -359,10 +353,16 @@ blockquote {
 .items-section {
   text-align: center;
   background-color: #071629;
-  text-align: center;
-  background-color: #071629;
-  width: 100%; /* Full width of the viewport */
+  width: 1440px;
+  height: 502px;
+  margin: 0 auto;
   padding: 40px 0;
+  /* Background color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
   box-sizing: border-box;
 }
 
