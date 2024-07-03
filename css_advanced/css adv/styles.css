@@ -397,59 +397,38 @@ p {
 }
 
 /* Adjusted CSS for the Footer section */
-
-/* General reset for box-sizing */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-}
-
-footer {
-  width: 100%;
-  background-color: #071629;
-  color: white;
-  padding: 20px 0;
-}
-
-.footer-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  max-width: 1440px;
-  margin: 0 auto;
-  padding: 0 40px;
-}
-
-.footer-left {
-  display: flex;
-  align-items: center;
+.footer {
+  background-color: rgba(7, 22, 41, 1); /* Background color */
+  width: 1440px; /* Width of the footer */
+  height: 249px; /* Height of the footer */
+  margin-top: 40px; /* Adjust margin as needed */
+  padding: 20px; /* Padding inside the footer */
+  box-sizing: border-box; /* Include padding and border in width calculation */
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space items evenly horizontally */
+  align-items: center; /* Center items vertically */
+  color: white; /* Text color */
+  position: relative; /* Ensure footer stays at bottom */
+  clear: both; /* Clear floats */
 }
 
 .footer-logo {
-  max-width: 200px;
-  height: auto;
+  width: 100px; /* Adjust width of the logo */
+  height: auto; /* Maintain aspect ratio */
 }
 
-.footer-right {
-  display: flex;
-  align-items: center;
-  gap: 20px;
+.footer-icons {
+  display: flex; /* Use flexbox for icon alignment */
+  gap: 20px; /* Spacing between icons */
 }
 
-.footer-icon {
-  width: 30px;
-  height: 30px;
+.footer-icons a {
+  color: white; /* Icon color */
+  font-size: 24px; /* Adjust icon size */
 }
 
 .footer-copyright {
-  margin-top: 20px;
-  text-align: center;
-  width: 100%;
+  margin-top: 20px; /* Spacing above copyright text */
+  text-align: center; /* Center align the copyright text */
+  width: 100%; /* Ensure copyright text spans full width */
 }
