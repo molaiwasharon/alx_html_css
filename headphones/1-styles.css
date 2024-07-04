@@ -166,29 +166,29 @@ nav > ul > li > a:active {
   color: rgba(255, 101, 101, 1);
 }
 
-.sec1 {
+.section1 {
   color: rgb(240, 255, 255);
   display: flex;
   flex-direction: column;
   gap: 50px;
 }
 
-.sec1-div1 {
+.section1-div1 {
   display: flex;
   flex-direction: column;
   gap: 50px;
 }
 
-.sec1-content > h1 {
+.section1-content > h1 {
   font-size: 25px;
 }
 
-.sec1-content > p,
-.sec1-div2 > p {
+.section1-content > p,
+.section1-div2 > p {
   font-size: 14px;
 }
 
-.sec1-div1 > button {
+.section1-div1 > button {
   color: rgb(240, 255, 255);
   background-color: rgba(255, 101, 101, 1);
   font-size: 12px;
@@ -202,8 +202,8 @@ nav > ul > li > a:active {
   margin: 0 auto 0 auto;
 }
 
-.sec1-div1 > button:hover,
-.sec1-div1 > button:active {
+.section1-div1 > button:hover,
+.section1-div1 > button:active {
   opacity: 0.9;
 }
 
@@ -226,13 +226,13 @@ nav > ul > li > a:active {
   }
 
   nav,
-  .sec1 {
+  .section1 {
     width: 90%;
     margin: 0 auto 0 auto;
   }
 
-  .sec1-div1,
-  .sec1-div2 {
+  .section1-div1,
+  .section1-div2 {
     text-align: center;
   }
 }
@@ -252,13 +252,13 @@ nav > ul > li > a:active {
   }
 
   nav,
-  .sec1 {
+  .section1 {
     width: 85%;
     margin: 0 auto 0 auto;
   }
 
-  .sec1-div1,
-  .sec1-div2 {
+  .section1-div1,
+  .section1-div2 {
     width: 80%;
     margin: 0 auto 0 auto;
     text-align: center;
@@ -268,14 +268,14 @@ nav > ul > li > a:active {
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   nav,
-  .sec1 {
+  .section1 {
     width: 100%;
     max-width: 1000px;
     margin: 0 auto 0 auto;
   }
 
-  .sec1-div1,
-  .sec1-div2 {
+  .section1-div1,
+  .section1-div2 {
     width: 100%;
     max-width: 600px;
     margin: 0 auto 0 auto;
