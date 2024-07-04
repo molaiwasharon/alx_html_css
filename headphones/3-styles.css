@@ -1,0 +1,644 @@
+
+@font-face {
+    font-family: myFont;
+    src: url(source-sans-pro/SourceSansPro-Black.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: myFont, Arial, Helvetica, sans-serif;
+}
+
+body {
+    line-height: 160%;
+}
+
+@font-face {
+    font-family: 'holberton_school-icon';
+    src: url('fonts/holberton_school-icon.eot?sq4eq4');
+    src: url('fonts/holberton_school-icon.eot?sq4eq4#iefix') format('embedded-opentype'),
+        url('fonts/holberton_school-icon.ttf?sq4eq4') format('truetype'),
+        url('fonts/holberton_school-icon.woff?sq4eq4') format('woff'),
+        url('fonts/holberton_school-icon.svg?sq4eq4#holberton_school-icon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="holberton_school-icon-"],
+[class*=" holberton_school-icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'holberton_school-icon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.holberton_school-icon-arrow_1:before {
+    content: "\e900";
+}
+
+.holberton_school-icon-arrow_2:before {
+    content: "\e901";
+}
+
+.holberton_school-icon-arrow_3:before {
+    content: "\e902";
+}
+
+.holberton_school-icon-arrow_4:before {
+    content: "\e903";
+}
+
+.holberton_school-icon-arrow_5:before {
+    content: "\e904";
+}
+
+.holberton_school-icon-check:before {
+    content: "\e905";
+}
+
+.holberton_school-icon-ic_bag:before {
+    content: "\e906";
+}
+
+.holberton_school-icon-ic_cart:before {
+    content: "\e907";
+}
+
+.holberton_school-icon-ic_facebook:before {
+    content: "\e908";
+}
+
+.holberton_school-icon-ic_hearing:before {
+    content: "\e909";
+}
+
+.holberton_school-icon-ic_instagram:before {
+    content: "\e90a";
+}
+
+.holberton_school-icon-ic_laptop:before {
+    content: "\e90b";
+}
+
+.holberton_school-icon-ic_money:before {
+    content: "\e90c";
+}
+
+.holberton_school-icon-ic_music:before {
+    content: "\e90d";
+}
+
+.holberton_school-icon-ic_sound:before {
+    content: "\e90e";
+}
+
+.holberton_school-icon-ic_twitter:before {
+    content: "\e90f";
+}
+
+.holberton_school-icon-ic_video:before {
+    content: "\e910";
+}
+
+.holberton_school-icon-menu:before {
+    content: "\e911";
+}
+
+.holberton_school-icon-search_1:before {
+    content: "\e912";
+}
+
+.holberton_school-icon-search_2:before {
+    content: "\e913";
+}
+
+.holberton_school-icon-star:before {
+    content: "\e914";
+}
+
+
+/* ==================== styling header section ==================*/
+
+header {
+    background-image: url("headphones_hero_1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav>ul {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+nav>ul>li {
+    list-style-type: none;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    color: rgb(240, 255, 255);
+    font-size: 15px;
+    transition: color 0.5s ease;
+}
+
+nav>ul>li>a:hover,
+nav>ul>li>a:active {
+    color: rgba(255, 101, 101, 1);
+}
+
+.sec1 {
+    color: rgb(240, 255, 255);
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.sec1-div1 {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.sec1-content>h1 {
+    font-size: 25px;
+}
+
+.sec1-content>p,
+.sec1-div2>p {
+    font-size: 14px;
+}
+
+.sec1-div1>button {
+    color: rgb(240, 255, 255);
+    background-color: rgba(255, 101, 101, 1);
+    font-size: 12px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 20px;
+    width: 130px;
+    cursor: pointer;
+    transition: opacity 0.6s ease;
+    margin: 0 auto 0 auto;
+}
+
+.sec1-div1>button:hover,
+.sec1-div1>button:active {
+    opacity: 0.9;
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 480px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        gap: 320px;
+        padding: 15px 0 80px 0;
+    }
+
+    nav>img {
+        width: 150px;
+        height: 30px;
+    }
+
+    nav>ul {
+        display: none;
+    }
+
+    nav,
+    .sec1 {
+        width: 90%;
+        margin: 0 auto 0 auto;
+    }
+
+    .sec1-div1,
+    .sec1-div2 {
+        text-align: center;
+
+    }
+}
+
+/* Medium devices (landscape tablets, 480px and up) */
+@media only screen and (min-width: 480px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        gap: 320px;
+        padding: 15px 0 80px 0;
+    }
+
+    nav>img {
+        width: 170px;
+        height: 40px;
+    }
+
+    nav,
+    .sec1 {
+        width: 85%;
+        margin: 0 auto 0 auto;
+    }
+
+    .sec1-div1,
+    .sec1-div2 {
+        width: 80%;
+        margin: 0 auto 0 auto;
+        text-align: center;
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    nav,
+    .sec1 {
+        width: 100%;
+        max-width: 1000px;
+        margin: 0 auto 0 auto;
+    }
+
+    .sec1-div1,
+    .sec1-div2 {
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto 0 auto;
+    }
+
+}
+
+/* ==================== styling main section ==================*/
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 480px) {}
+
+/* Medium devices (landscape tablets, 480px and up) */
+@media only screen and (min-width: 480px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+.what-section {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    background-color: rgb(255, 255, 255);
+    padding: 100px 0 100px 0;
+}
+
+.what-div1 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.what-div1>h2 {
+    font-size: 30px;
+}
+
+.what-div1>p {
+    font-size: 16px;
+}
+
+.what-div2-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.what-div2-content>span {
+    font-size: 70px;
+    color: rgba(255, 101, 101, 1);
+}
+
+.what-div2-content>h2 {
+    font-size: 20px;
+}
+
+.what-div2-content>p {
+    font-size: 14px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 480px) {
+    .what-section {
+        width: 80%;
+        margin: 0 auto 0 auto;
+    }
+
+    .what-div1 {
+        width: 99%;
+        margin: 0 auto 0 auto;
+        text-align: center;
+    }
+
+    .what-div2 {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+        margin: 0 auto 0 auto;
+    }
+
+    .what-div2-content {
+        text-align: center;
+    }
+
+    .what-div2-content>p {
+        width: 100%;
+        max-width: 200px;
+        margin: 0 auto 0 auto;
+
+    }
+}
+
+/* Medium devices (landscape tablets, 480px and up) */
+@media only screen and (min-width: 480px) {
+    .what-section {
+        width: 80%;
+        margin: 0 auto 0 auto;
+    }
+
+    .what-div1 {
+        width: 99%;
+        margin: 0 auto 0 auto;
+        text-align: center;
+    }
+
+    .what-div2 {
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 0 auto 0 auto;
+    }
+
+    .what-div2-content {
+        text-align: center;
+        width: 49%;
+    }
+
+    .what-div2-content>p {
+        width: 100%;
+        max-width: 200px;
+        margin: 0 auto 0 auto;
+
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .what-section {
+        width: 100%;
+        max-width: 1000px;
+        margin: 0 auto 0 auto;
+    }
+
+    .what-div1 {
+        width: 100%;
+        max-width: 700px;
+        margin: 0 auto 0 auto;
+    }
+
+    .what-div2 {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+
+    .what-div2-content {
+        width: auto;
+    }
+}
+
+/* ==================== styling our results section ==================*/
+
+.our-results {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding: 130px 0 70px 0;
+    background-image: url("headphones_hero_2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.our-head>h2,
+.pent-content>h3 {
+    color: rgb(240, 255, 255);
+}
+
+.our-head>h2 {
+    font-size: 26px;
+}
+
+.our-head>p {
+    font-size: 14px;
+}
+
+.pent-content>h3 {
+    font-size: 30px;
+}
+
+.pent-content>p {
+    font-size: 12px;
+}
+
+.our-head>p,
+.pent-content>p {
+    color: rgb(200, 200, 200);
+}
+
+.our-head {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+}
+
+.our-head,
+.our-pentagone {
+    margin: 0 auto 0 auto;
+}
+
+.pent-container {
+    position: relative;
+    width: 150px;
+    height: 130px;
+    margin: 0 auto 0 auto;
+}
+
+.pent-container>img {
+    width: 100%;
+    height: 100%;
+}
+
+.pent-content {
+    position: absolute;
+    top: 40%;
+    right: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: center;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 480px) {
+
+    .our-head,
+    .our-pentagone {
+        width: 80%;
+    }
+
+    .our-pentagone {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .our-head>h2 {
+        max-width: 240px;
+        margin: 0 auto 0 auto;
+    }
+}
+
+/* Medium devices (landscape tablets, 480px and up) */
+@media only screen and (min-width: 480px) {
+    .our-head {
+        width: 90%;
+        max-width: 600px;
+    }
+
+    .our-pentagone {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: space-between;
+        gap: 50px;
+        width: 100%;
+        max-width: 400px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .our-head {
+        width: 600px;
+    }
+
+    .our-pentagone {
+        width: 80%;
+        max-width: 1000px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+}
+
+/* ==================== styling contact section ==================*/
+
+.contact-section {
+    background-color: rgb(255, 255, 255);
+    padding: 80px 0 80px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    max-width: 1000px;
+    margin: 0 auto 0 auto;
+}
+
+form>h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.form-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.myInput {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.myInput>label {
+    width: 95px;
+    font-size: 15px;
+}
+
+.myInput>input {
+    outline: none;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    width: 100%;
+    max-width: 200px;
+}
+
+.myInput>label,
+.myInput>input {
+    border-bottom: 2px solid rgba(190, 190, 190, 1);
+}
+
+#form-btn {
+    color: rgb(240, 255, 255);
+    background-color: rgba(255, 101, 101, 1);
+    font-size: 12px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 20px;
+    width: 130px;
+    cursor: pointer;
+    transition: opacity 0.6s ease;
+    margin: 0 auto 0 auto;
+}
+
+#form-btn:hover,
+#form-btn:active {
+    opacity: 0.9;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 480px) {}
+
+/* Medium devices (landscape tablets, 480px and up) */
+@media only screen and (min-width: 480px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
