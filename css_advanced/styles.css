@@ -116,14 +116,14 @@ body {
   font-family: var(--font-family-bold);
 }
 
-.words {
+.three {
   display: flex;
   justify-content: center;
   font-family: var(--font-family-bold);
   margin-bottom: 20px;
 }
 
-.words p {
+.three p {
   font-size: var(--font-size-x-small);
   color: var(--color-white);
   margin: 0 10px;
