@@ -1,17 +1,17 @@
-# CSS Advanced Project
+# CSS Advanced
 
-Welcome to the CSS Advanced Project repository! This project is a collection of advanced CSS techniques and best practices to create visually stunning and responsive web applications. It showcases the power and versatility of CSS in building modern and engaging user interfaces.
+In this Advanced CSS task, we take on the challenge of styling HTML code from  the *HTML advanced* repository.  
 
-## Features
+All styling is done with pure CSS without using libraries or frameworks.  
+Of course, it would have been easier without the restrictions, **but** the goal is to learn. So the challenge is very welcome.
 
-Responsive layout design
-Cross-browser compatible
-Animations and transitions
-Custom CSS properties
-Flexbox and grid layouts
-Scalable vector graphics
-Modular and reusable CSS classes
+I utilize -:  
+- *Flex-box*  
+- *Grid-box, and  
+    other CSS layouts and properties to create a beautiful website.*  
 
-![Website Demo](https://github.com/ama-lyn/alx_html_css/assets/132227466/8191ebad-8c65-4596-91fa-568b06404c28)
+CSS can be a lot sometimes, but what good thing isn't? So...
 
-![Web Demo](https://github.com/ama-lyn/alx_html_css/assets/132227466/2e0dac71-fbcc-41d4-b7e6-841cc213cf9c)
+*Happy Coding!*
+
+**The completed website is here:** <a href="https://htmlpreview.github.io/?https://github.com/josephchigiz/alx_html_css/blob/master/css_advanced/index.html" title= "Preview The Webpage" target="_blank">Preview</a>.
