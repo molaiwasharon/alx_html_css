@@ -161,14 +161,14 @@ body {
 }
 
 /*** 3.Blockquote ***/
-.quote {
+.quote-sec {
   background-image: url("images/background-blockquote.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
 }
 
-.quote-div1 {
+.quote-sec1 {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -177,29 +177,29 @@ body {
   margin: 0 auto;
   color: white;
 }
-.quote-div1 img {
+.quote-sec1 img {
   max-width: 160px;
   max-height: 160px;
   margin: 108px 0;
 }
-.quote-div2 {
+.quote-sec2 {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
 }
-.quote-div2 blockquote {
+.quote-sec2 blockquote {
   font-size: 22px;
   line-height: 33px;
   font-weight: 300;
   margin: 0;
 }
-.quote-div2 h3 {
+.quote-sec2 h3 {
   font-size: 22px;
   line-height: 33px;
   font-weight: bold;
   margin: 0;
 }
-.quote-div2 p {
+.quote-sec2 p {
   font-size: 22px;
   font-weight: 300;
   line-height: 33px;
