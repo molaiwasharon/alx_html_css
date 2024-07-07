@@ -31,7 +31,7 @@ body {
 }
 
 /*** 1. Header ***/
-.header-div {
+.header-sec {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -39,7 +39,7 @@ body {
   padding: 32px 60px 0 60px;
 }
 
-.site-logo img {
+.page-logo img {
   max-width: 167.02px;
 }
 
@@ -138,21 +138,21 @@ body {
   color: white;
 }
 
-#smile-winners {
+#pros {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
   color: white;
   margin-top: 87px;
 }
-#smile-winners h3 {
+#pros h3 {
   font-size: 18px;
   font-weight: bolder;
   line-height: 27px;
   padding: 0;
   margin: 0;
 }
-#smile-winners p {
+#pros p {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
