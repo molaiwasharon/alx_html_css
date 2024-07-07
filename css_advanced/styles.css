@@ -31,7 +31,7 @@ body {
 }
 
 /*** 1. Header ***/
-.header-div {
+.header-logo {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -39,23 +39,23 @@ body {
   padding: 32px 60px 0 60px;
 }
 
-.site-logo img {
+.page-logo img {
   max-width: 167.02px;
 }
 
-.navigation-links {
+.nav-links {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   gap: 52px;
 }
 
-.navigation-links li {
+.nav-links li {
   list-style: none;
   /* padding: 26px; */
 }
 
-.navigation-links a {
+.nav-links a {
   text-decoration: none;
   color: white;
   font-size: 12px;
