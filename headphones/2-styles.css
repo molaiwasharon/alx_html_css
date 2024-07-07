@@ -80,7 +80,7 @@ body {
   content: "\e908";
 }
 
-.icon-hearing:before {
+.holberton_school-icon-ic_hearing:before {
   content: "\e909";
 }
 
@@ -96,11 +96,11 @@ body {
   content: "\e90c";
 }
 
-.icon-music:before {
+.holberton_school-icon-ic_music:before {
   content: "\e90d";
 }
 
-.icon-sound:before {
+.holberton_school-icon-ic_sound:before {
   content: "\e90e";
 }
 
@@ -108,7 +108,7 @@ body {
   content: "\e90f";
 }
 
-.icon-video:before {
+.holberton_school-icon-ic_video:before {
   content: "\e910";
 }
 
