@@ -96,11 +96,11 @@ body {
   content: "\e90c";
 }
 
-.holberton_school-icon-ic_music:before {
+.icon-music:before {
   content: "\e90d";
 }
 
-.holberton_school-icon-ic_sound:before {
+.icon-sound:before {
   content: "\e90e";
 }
 
@@ -108,7 +108,7 @@ body {
   content: "\e90f";
 }
 
-.holberton_school-icon-ic_video:before {
+.icon-video:before {
   content: "\e910";
 }
 
