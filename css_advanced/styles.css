@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@200;300;400;500;600;700;800&display=swap");
-/* 'Source Sans 3', sans-serif; */
 
 @font-face {
   font-family: "spin_cycle_otregular";
@@ -30,7 +29,6 @@ body {
   background-size: cover;
 }
 
-/*** 1. Header ***/
 .header-div {
   display: flex;
   justify-content: space-between;
@@ -52,7 +50,6 @@ body {
 
 .navigation-links li {
   list-style: none;
-  /* padding: 26px; */
 }
 
 .navigation-links a {
@@ -62,12 +59,12 @@ body {
   font-weight: bold;
 }
 
-/*** 2. Main ***/
 #main-section {
   display: flex;
   flex-direction: column;
   text-align: center;
 }
+
 .get-schooled {
   display: flex;
   flex-direction: column;
@@ -110,11 +107,6 @@ body {
   padding: 13px 20.5px;
   column-gap: 160px;
   cursor: pointer;
-  transition: opacity 300ms, transform 400ms, box-shadow 400ms;
-}
-
-.get-schooled button:hover {
-  opacity: 0.7;
 }
 
 .get-schooled button:active {
@@ -132,6 +124,7 @@ body {
   font-weight: bold;
   color: rgba(194, 113, 255, 1);
 }
+
 .learn h2 {
   font-size: 32px;
   font-weight: 350;
@@ -145,6 +138,7 @@ body {
   color: white;
   margin-top: 87px;
 }
+
 #smile-winners h3 {
   font-size: 18px;
   font-weight: bolder;
@@ -152,6 +146,7 @@ body {
   padding: 0;
   margin: 0;
 }
+
 #smile-winners p {
   font-size: 16px;
   font-weight: 400;
@@ -160,7 +155,6 @@ body {
   padding: 0;
 }
 
-/*** 3.Blockquote ***/
 .quote {
   background-image: url("images/background-blockquote.png");
   background-repeat: no-repeat;
@@ -177,45 +171,49 @@ body {
   margin: 0 auto;
   color: white;
 }
+
 .quote-div1 img {
   max-width: 160px;
   max-height: 160px;
   margin: 108px 0;
 }
+
 .quote-div2 {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
 }
+
 .quote-div2 blockquote {
   font-size: 22px;
   line-height: 33px;
   font-weight: 300;
   margin: 0;
 }
+
 .quote-div2 h3 {
   font-size: 22px;
   line-height: 33px;
   font-weight: bold;
   margin: 0;
 }
+
 .quote-div2 p {
   font-size: 22px;
   font-weight: 300;
   line-height: 33px;
 }
 
-/*** 4. Videos ***/
 #videos {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   padding: 0 105px 87px 105px;
 }
+
 #videos h2 {
   text-align: center;
   color: #071629;
-  text-align: center;
   font-size: 32px;
   font-style: normal;
   font-weight: 300;
@@ -223,6 +221,7 @@ body {
   margin-top: 87px;
   margin-bottom: 75px;
 }
+
 #videos span {
   color: #c271ff;
   font-size: 32px;
@@ -236,6 +235,7 @@ body {
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
+
 .vid {
   display: flex;
   flex-direction: column;
@@ -251,11 +251,13 @@ body {
   margin-bottom: 7.6px;
   padding: 0 10px;
 }
+
 .vid p {
   margin-top: 0;
   padding: 0 10px;
   margin-bottom: 0;
 }
+
 .pic-name {
   display: flex;
   align-items: center;
@@ -263,6 +265,7 @@ body {
   margin-top: 13.4px;
   margin-bottom: 13.4px;
 }
+
 .pic-name h3 {
   color: #c271ff;
   font-size: 14px;
@@ -279,12 +282,15 @@ body {
   padding-left: 10px;
   padding-right: 10px;
 }
+
 .rating .stars {
   align-items: center;
 }
+
 .rating .stars img {
   margin: 0;
 }
+
 .rating .time {
   color: #c271ff;
   text-align: right;
@@ -294,7 +300,6 @@ body {
   line-height: 27px;
 }
 
-/*** 5.Membership ***/
 #membership {
   display: flex;
   flex-direction: column;
@@ -305,6 +310,7 @@ body {
   background-attachment: scroll;
   background-size: cover;
 }
+
 #membership h2 {
   color: #fff;
   font-size: 32px;
@@ -313,6 +319,7 @@ body {
   margin-top: 70px;
   margin-bottom: 58px;
 }
+
 #membership span {
   color: #c271ff;
   text-align: center;
@@ -326,6 +333,7 @@ body {
   justify-content: space-evenly;
   color: white;
 }
+
 #main-memb-div h3 {
   color: #fff;
   text-align: center;
@@ -334,6 +342,7 @@ body {
   line-height: 26px;
   margin-bottom: 13px;
 }
+
 #main-memb-div p {
   color: #fff;
   text-align: center;
@@ -342,9 +351,11 @@ body {
   line-height: 26px;
   margin-bottom: 85px;
 }
+
 #main-memb-div img {
   margin-bottom: 27px;
 }
+
 #membership button {
   border: none;
   border-radius: 22px;
@@ -372,27 +383,30 @@ body {
   box-shadow: 5px 5px 10px rgba(97, 51, 133, 0.6);
 }
 
-/*** 6. F.A.Q ***/
 #FAQ {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   text-align: center;
 }
+
 #FAQ h2 {
   font-size: 60px;
   font-weight: 300;
 }
+
 #row-block1 {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
+
 #row-block1 h3 {
   font-size: 16px;
   font-weight: bold;
   text-align: start;
 }
+
 #row-block1 p {
   font-size: 14px;
   font-weight: normal;
@@ -406,11 +420,13 @@ body {
   flex-wrap: wrap;
   margin-bottom: 84px;
 }
+
 #row-block2 h3 {
   font-size: 16px;
   font-weight: bold;
   text-align: start;
 }
+
 #row-block2 p {
   font-size: 14px;
   font-weight: normal;
@@ -418,7 +434,6 @@ body {
   text-align: start;
 }
 
-/*** 7.Footer ***/
 footer {
   background-image: url("images/background-footer.png");
   background-repeat: no-repeat;
@@ -439,9 +454,11 @@ footer {
   flex-wrap: wrap;
   margin: 70px 166px;
 }
+
 .last-div1 p {
   text-align: center;
 }
+
 .last-div1 a {
   text-decoration: none;
   color: white;
