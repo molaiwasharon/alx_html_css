@@ -43,7 +43,7 @@ Styling: Use of variables and generic CSS selectors; avoid overly specific selec
 
 # Repository Structure
 
-- GitHub Repository: [alx_html_css](https://github.com/molaiwasharon/alx_html_css)
+- GitHub Repository: [alx_html_css](https://github.com/molaiwasharon/alx_html_css.git)
 - Directory: headphones
 - Files:
   - `1-index.html`, `1-styles.css`: Header implementation
